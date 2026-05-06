@@ -54,9 +54,3 @@ fullstack-todo-app/
 ## Dashboard
 
 ![Dashboard](./screenshots/dashboard.png)
-
----
-
-## Mobile View
-
-![Mobile](./screenshots/mobile-view.png)
