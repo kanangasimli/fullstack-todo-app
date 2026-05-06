@@ -36,3 +36,27 @@ fullstack-todo-app/
 ├── backend/
 ├── frontend/
 └── README.md
+
+# 📸 Screenshots
+
+## Login Page
+
+![Login](./screenshots/login-page.png)
+
+---
+
+## Register Page
+
+![Register](./screenshots/register-page.png)
+
+---
+
+## Dashboard
+
+![Dashboard](./screenshots/dashboard.png)
+
+---
+
+## Mobile View
+
+![Mobile](./screenshots/mobile-view.png)
