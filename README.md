@@ -29,15 +29,7 @@ A full-stack ToDo application built with Spring Boot, React, PostgreSQL, and JWT
 - Mark tasks as completed
 - Search, filter, sort, and paginate tasks
 
-## Project Structure
-
-```bash
-fullstack-todo-app/
-├── backend/
-├── frontend/
-└── README.md
-
-# 📸 Screenshots
+# Screenshots
 
 ## Login Page
 
@@ -54,3 +46,12 @@ fullstack-todo-app/
 ## Dashboard
 
 ![Dashboard](./screenshots/dashboard.png)
+
+## Project Structure
+
+```bash
+fullstack-todo-app/
+├── backend/
+├── frontend/
+└── README.md
+
