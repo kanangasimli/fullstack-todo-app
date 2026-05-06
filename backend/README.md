@@ -223,10 +223,10 @@ Potential improvements for production:
 Your Name
 
 GitHub:
-https://github.com/yourusername
+https://github.com/kanangasimli
 
 LinkedIn:
-https://linkedin.com/in/yourprofile
+https://linkedin.com/in/kanangasimli
 
 ---
 
