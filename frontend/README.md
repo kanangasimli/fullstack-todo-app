@@ -1,16 +1,213 @@
-# React + Vite
+# Frontend - React ToDo Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend application for the Full Stack ToDo project.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 🚀 Overview
 
-## React Compiler
+This frontend application was built with React and Vite.
+It communicates with the Spring Boot backend using REST APIs and JWT Authentication.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The application allows users to:
 
-## Expanding the ESLint configuration
+- Register and login
+- Manage personal tasks
+- Create, update, and delete tasks
+- Search and filter tasks
+- Access protected pages using JWT authentication
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# 🛠️ Tech Stack
+
+- React
+- Vite
+- Axios
+- React Router DOM
+- CSS3
+- JavaScript (ES6+)
+
+---
+
+# ✨ Features
+
+## Authentication
+
+- User registration
+- User login
+- JWT token storage
+- Protected routes
+- Logout functionality
+
+## Task Management
+
+- Create tasks
+- Edit tasks
+- Delete tasks
+- Mark tasks as completed
+- Search tasks
+- Filter tasks
+- Pagination support
+- Sorting support
+
+## UI Features
+
+- Responsive design
+- Clean modern interface
+- Error handling
+- Loading states
+- Form validation
+
+---
+
+# 📂 Folder Structure
+
+```text
+src/
+│
+├── components/
+├── pages/
+├── services/
+├── routes/
+├── hooks/
+├── assets/
+└── styles/
+```
+
+---
+
+# ⚙️ Installation
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/yourusername/fullstack-todo-app.git
+```
+
+---
+
+## 2. Navigate to Frontend
+
+```bash
+cd frontend
+```
+
+---
+
+## 3. Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+# 🔧 Environment Variables
+
+Create:
+
+```bash
+.env
+```
+
+Add:
+
+```env
+VITE_API_BASE_URL=http://localhost:8080
+```
+
+---
+
+# ▶️ Run Application
+
+```bash
+npm run dev
+```
+
+Frontend runs on:
+
+```text
+http://localhost:5173
+```
+
+---
+
+# 🔐 Authentication Flow
+
+```text
+User Login
+    ↓
+JWT Token Received
+    ↓
+Token Stored in Local Storage
+    ↓
+Protected API Requests
+    ↓
+Access Granted
+```
+
+---
+
+# 📡 Backend Connection
+
+This frontend communicates with the Spring Boot backend API.
+
+Backend default URL:
+
+```text
+http://localhost:8080
+```
+
+---
+
+# 📸 Screenshots
+
+Add screenshots to improve recruiter experience.
+
+Example:
+
+```md
+## Dashboard
+![Dashboard](../screenshots/dashboard.png)
+```
+
+Recommended screenshots:
+
+- Login page
+- Register page
+- Task dashboard
+- Mobile responsive view
+
+---
+
+# 🌍 Deployment
+
+Recommended frontend deployment platforms:
+
+- Vercel
+- Netlify
+- Firebase Hosting
+
+---
+
+# 💡 Future Improvements
+
+Potential improvements:
+
+- Dark mode
+- Drag & drop tasks
+- Real-time updates
+- Task categories
+- Due dates & reminders
+- Better animations
+
+---
+
+# 👨‍💻 Author
+
+Your Name
+
+GitHub: https://github.com/kanangasimli
+
+LinkedIn: https://linkedin.com/in/kanangasimli
